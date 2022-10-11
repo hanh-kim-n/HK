@@ -1,0 +1,65 @@
+p {
+    text-align: center;
+}
+
+.change {
+    float: right;
+}
+
+.flex-container {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    vertical-align: bottom;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ece585;
+    margin: 40px;
+}
+
+img {
+    width: 150px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: black;
+}
+
+.container {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 50px;
+    background-color: #ece585;
+}
+
+.cards {
+    background-color: white;
+    border-radius: 1em;
+    padding: 20px;
+    width: 300px;
+}
+
+.info {
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .cv_page{
+        width: 100%;
+        float: left;
+    }
+
+}
+@media screen and (max-width: 650px) {
+    .cv_page{
+        width: 100%;
+        float: left;
+    }
+}
